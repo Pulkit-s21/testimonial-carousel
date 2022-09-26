@@ -12,7 +12,7 @@ const testimonials = [
         },
 
         {
-            src: "https://i.postimg.cc/529JN7wt/image-john.jpg",
+            src: "/images/image-john.jpg",
             testimonial: `“ If you want to lay the best foundation possible I’d recommend taking this course. 
             The depth the instructors go into is incredible. I now feel so confident about 
             starting up as a professional developer.”`,
