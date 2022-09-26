@@ -3,7 +3,7 @@ import 'tw-elements';
 
 const testimonials = [
         {
-            src: "/images/image-tanya.jpg",
+            src: "./images/image-tanya.jpg",
             testimonial: `“ I’ve been interested in coding for a while but never taken the jump, until now. 
             I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
             excited about the future. ”`,
@@ -12,7 +12,7 @@ const testimonials = [
         },
 
         {
-            src: "/images/image-john.jpg",
+            src: "./images/image-john.jpg",
             testimonial: `“ If you want to lay the best foundation possible I’d recommend taking this course. 
             The depth the instructors go into is incredible. I now feel so confident about 
             starting up as a professional developer.”`,
@@ -21,14 +21,14 @@ const testimonials = [
         },
 
         {
-            src: "/images/image-sara.jpg",
+            src: "./images/image-sara.jpg",
             testimonial: `"I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs."`,
             name: "Sara Holland",
             job: "Back-end developer",
         },
 
         {
-            src: "/images/image-chrisi.jpg",
+            src: "./images/image-chrisi.jpg",
             testimonial: `"I used to watch a lot of tutorials and tried to learn and understand how the concept works and its totally okay to do so but you have to practice in order to master it and dont watch the topics you get stuck on youtbe and try searching it on stackoverflow or google first to do it yourself."`,
             name: "Chrisi Conner",
             job: "Founded, Spicy Mix",
@@ -55,7 +55,6 @@ function changeTestimonial(){
 nextBtn.addEventListener("click",()=>{
     currentSlide = (totalSlide + currentSlide + 1) % totalSlide;
     changeTestimonial();
-    console.log(personImg.src);
 });
 
 prevBtn.addEventListener("click",()=>{
