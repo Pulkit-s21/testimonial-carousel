@@ -62,4 +62,4 @@ prevBtn.addEventListener("click",()=>{
     changeTestimonial();
 });
 
-window.onload = changeTestimonial();
+window.onload = changeTestimonial;
