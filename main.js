@@ -55,6 +55,7 @@ function changeTestimonial(){
 nextBtn.addEventListener("click",()=>{
     currentSlide = (totalSlide + currentSlide + 1) % totalSlide;
     changeTestimonial();
+    console.log(personImg.src);
 });
 
 prevBtn.addEventListener("click",()=>{
