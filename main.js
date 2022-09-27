@@ -47,9 +47,9 @@ let totalSlide = testimonials.length;
 
 function changeTestimonial(){
     personImg.src = testimonials[currentSlide].src;
+    testimonial.textContent = testimonials[currentSlide].testimonial;
     name.textContent = testimonials[currentSlide].name;
     job.textContent = testimonials[currentSlide].job;
-    testimonial.textContent = testimonials[currentSlide].testimonial;
 }
 
 nextBtn.addEventListener("click",()=>{
