@@ -45,8 +45,9 @@ const job = document.querySelector(".job");
 let currentSlide = 0;
 let totalSlide = testimonials.length;
 
-function changeTestimonial(){
+async function changeTestimonial(){
     personImg.src = testimonials[currentSlide].src;
+    await personImg.src;
     testimonial.textContent = testimonials[currentSlide].testimonial;
     name.textContent = testimonials[currentSlide].name;
     job.textContent = testimonials[currentSlide].job;
