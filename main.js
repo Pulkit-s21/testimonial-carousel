@@ -3,7 +3,7 @@ import 'tw-elements';
 
 const testimonials = [
         {
-            src: "https://images.unsplash.com/photo-1664199748890-ce074c7ed49f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+            src: "https://i.postimg.cc/SRnbkgbZ/image-tanya.jpg",
             testimonial: `“ I’ve been interested in coding for a while but never taken the jump, until now. 
             I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
             excited about the future. ”`,
@@ -12,7 +12,7 @@ const testimonials = [
         },
 
         {
-            src: "./images/image-john.jpg",
+            src: "https://i.postimg.cc/VvkLM9QM/image-john.jpg",
             testimonial: `“ If you want to lay the best foundation possible I’d recommend taking this course. 
             The depth the instructors go into is incredible. I now feel so confident about 
             starting up as a professional developer.”`,
@@ -21,14 +21,14 @@ const testimonials = [
         },
 
         {
-            src: "./images/image-sara.jpg",
+            src: "https://i.postimg.cc/s2bpTXDv/image-sara.jpg",
             testimonial: `"I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs."`,
             name: "Sara Holland",
             job: "Back-end developer",
         },
 
         {
-            src: "./images/image-chrisi.jpg",
+            src: "https://i.postimg.cc/qvLbD29g/image-chrisi.jpg",
             testimonial: `"I used to watch a lot of tutorials and tried to learn and understand how the concept works and its totally okay to do so but you have to practice in order to master it and dont watch the topics you get stuck on youtbe and try searching it on stackoverflow or google first to do it yourself."`,
             name: "Chrisi Conner",
             job: "Founded, Spicy Mix",
