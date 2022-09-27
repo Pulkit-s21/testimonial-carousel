@@ -3,7 +3,7 @@ import 'tw-elements';
 
 const testimonials = [
         {
-            src: "./images/image-tanya.jpg",
+            src: "https://images.unsplash.com/photo-1664199748890-ce074c7ed49f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
             testimonial: `“ I’ve been interested in coding for a while but never taken the jump, until now. 
             I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
             excited about the future. ”`,
